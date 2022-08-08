@@ -1,0 +1,15 @@
+lockfileVersion: 5.4
+
+specifiers:
+  apply-hooks: ^1.0.24
+
+devDependencies:
+  apply-hooks: registry.npmmirror.com/apply-hooks/1.0.24
+
+packages:
+
+  registry.npmmirror.com/apply-hooks/1.0.24:
+    resolution: {integrity: sha512-xgAuqXKgSRlfQ0wDir1BSP3uPQtHrP2CE/ApDVpxiCOdHTIdjcRh5Z8EuzEPEhwkWc9OjeDcNi3cgXLt00qkVQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/apply-hooks/-/apply-hooks-1.0.24.tgz}
+    name: apply-hooks
+    version: 1.0.24
+    dev: true
