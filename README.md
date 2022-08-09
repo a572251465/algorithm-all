@@ -1,5 +1,6 @@
 <div align = "center"><h1>algorithm-all</h1></div>
 <div align = "center"><h5>学习 以及记录题解算法。 针对日常算法学习以及进行题解分析</h5></div>
+<div align = "center"><h4>值得分析的leetcode题会拿出来，如果此处看不到，请移步到文件夹</h4></div>
 
 ## 📚 链表
 
