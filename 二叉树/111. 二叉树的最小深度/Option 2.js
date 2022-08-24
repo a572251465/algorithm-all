@@ -18,7 +18,7 @@ var minDepth = function (root) {
     const item = stack.shift()
     const { root, level } = item
     if (root.left === null && root.right === null) return level
-
+1
     if (root.left) stack.push({ root: root.left, level: level + 1 })
     if (root.right) stack.push({ root: root.right, level: level + 1 })
   }
