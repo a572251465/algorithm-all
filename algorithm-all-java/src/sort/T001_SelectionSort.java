@@ -1,10 +1,10 @@
 package sort;
 
 /**
- * 选择排序的使用方式
+ * 选择排序的使用方式：遍历到某一个位置，找其余的位置最小值，跟当前位置交换
  * @author  lihh
  */
-public class SelectionSort {
+public class T001_SelectionSort {
 
     public static void print(int[] arr) {
         for (int item:  arr) {
