@@ -24,12 +24,8 @@ public class T003_InsertSort {
 
         int end = arr.length - 1;
         for (int i = 1; i < end; i++) {
-            for (int j = i; j > 0; j--) {
-                if (arr[j - 1] > arr[j]) {
-                    swap(arr, j - 1, j);
-                } else {
-                    break;
-                }
+            for (int j = i; j > 0 && arr[j - 1] > arr[j]; j--) {
+                swap(arr, j - 1, j);
             }
         }
     }
