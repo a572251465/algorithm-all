@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class T001_DoubleReverseList {
+public class T002_DoubleReverseList {
     public static void main(String[] args) {
         DoubleListNode n1 = new DoubleListNode(1);
         DoubleListNode n2 = new DoubleListNode(2);
