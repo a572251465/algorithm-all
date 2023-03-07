@@ -2,7 +2,7 @@ package LinkedList;
 
 public class T004_StackForLinkedList {
     int size;
-    ListNode head;
+    ListNode<Integer> head;
 
     public static void main(String[] args) {
         T004_StackForLinkedList stack = new T004_StackForLinkedList();

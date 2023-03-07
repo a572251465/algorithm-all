@@ -3,8 +3,8 @@ package LinkedList;
 public class T003_QueueForLinkedList {
 
     private int size;
-    private ListNode head;
-    private ListNode tail;
+    private ListNode<Integer> head;
+    private ListNode<Integer> tail;
 
     public static void main(String[] args) {
         T003_QueueForLinkedList queue = new T003_QueueForLinkedList();
