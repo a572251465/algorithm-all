@@ -1,17 +1,17 @@
 package LinkedList;
 
 public class ListNode<T> {
-    T val;
-    ListNode next;
+    public T val;
+    public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
-    ListNode(T val) {
+    public ListNode(T val) {
         this.val = val;
     }
 
-    ListNode(T val, ListNode next) {
+    public ListNode(T val, ListNode next) {
         this.val = val;
         this.next = next;
     }
