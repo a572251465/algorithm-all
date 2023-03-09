@@ -31,7 +31,7 @@ public class Option1 {
 
         int sum = v1 + v2 + prev;
         prev = sum / 10;
-        l1.val = sum % 10;
+        l1.val = sum & 9;
     }
 
 
