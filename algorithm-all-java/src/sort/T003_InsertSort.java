@@ -10,7 +10,7 @@ public class T003_InsertSort {
         for (int item : arr) {
             System.out.print(item + " ");
         }
-        System.out.println("");
+        System.out.println();
     }
 
     public static void swap(int[] arr, int i, int j) {
