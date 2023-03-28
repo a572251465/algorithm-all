@@ -6,7 +6,7 @@ import java.util.Set;
 
 // https://leetcode.cn/problems/fair-candy-swap/
 
-public class Option01 {
+public class Option1 {
   public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
     int sumA = Arrays.stream(aliceSizes).sum();
     int sumB = Arrays.stream(bobSizes).sum();
