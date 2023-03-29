@@ -1,6 +1,6 @@
-package dichotomy.T005_LeetCode35_SearchInsert;
+package dichotomy;
 
-public class Option1 {
+public class T005_LeetCode35_SearchInsert {
   public int searchInsert(int[] nums, int target) {
     int l = 0, r = nums.length - 1;
     while (l <= r) {

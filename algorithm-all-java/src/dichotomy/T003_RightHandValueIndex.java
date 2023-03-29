@@ -1,4 +1,4 @@
-package dichotomy.T003_RightHandValueIndex;
+package dichotomy;
 
 /**
  * 二分法 给定一个升序数组以及一个值value，找到<=value 最右边的位置

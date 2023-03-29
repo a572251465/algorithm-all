@@ -1,10 +1,10 @@
-package dichotomy.T001_JudgeExistFromArray;
+package dichotomy;
 
 /**
  * 从一个有序的数组中判断元素是否存在 二分查找法
  * @author  lihh
  */
-public class Option1 {
+public class T001_JudgeExistFromArray {
     public static void main(String[] args) {
         System.out.println(judgeExistFromArray(2, new int[]{2}));
         System.out.println(judgeExistFromArray(10, new int[]{2, 3, 6, 9, 12}));

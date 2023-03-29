@@ -1,8 +1,8 @@
-package dichotomy.T007_LeetCode268_MissingNumber;
+package dichotomy;
 
 // https://leetcode.cn/problems/missing-number/
 
-public class Option1 {
+public class T007_LeetCode268_MissingNumber {
   public int missingNumber(int[] nums) {
     int n = nums.length;
     int ans = 0;

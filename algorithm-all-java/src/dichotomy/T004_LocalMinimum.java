@@ -1,4 +1,4 @@
-package dichotomy.T004_LocalMinimum;
+package dichotomy;
 
 /**
  * 给定一个数组  以及一个值，数组满足：是无序的 + 任意一个值跟左右两侧值不同

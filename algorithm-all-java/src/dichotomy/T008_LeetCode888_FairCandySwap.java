@@ -1,4 +1,4 @@
-package dichotomy.T008_LeetCode888_FairCandySwap;
+package dichotomy;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -6,12 +6,12 @@ import java.util.Set;
 
 // https://leetcode.cn/problems/fair-candy-swap/
 
-public class Option1 {
+public class T008_LeetCode888_FairCandySwap {
   public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
     int sumA = Arrays.stream(aliceSizes).sum();
     int sumB = Arrays.stream(bobSizes).sum();
     int delta = (sumA - sumB) / 2;
-    Set<Integer> rec = new HashSet<Integer>();
+    Set<Integer> rec = new HashSet<>();
     for (int num : aliceSizes) {
       rec.add(num);
     }

@@ -1,8 +1,8 @@
-package dichotomy.T006_LeetCode69_MySqrt;
+package dichotomy;
 
 // https://leetcode.cn/problems/sqrtx/
 
-public class Option1 {
+public class T006_LeetCode69_MySqrt {
   public int mySqrt(int x) {
     if (x <= 1) return x;
     
