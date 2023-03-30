@@ -11,7 +11,7 @@ public class T006_LeetCode232_MyQueue {
 class MyQueue {
   
   Stack<Integer> s1 = new Stack<>();
-  Stack<Integer> s2 = new Stack<>();
+  Stack<Integer> s2 = new Stack<>(); 
   
   // 1 2 3 4 5
   public void push(int x) {
